@@ -40,4 +40,6 @@
 textarea{
   resize: none;
 }
-
+body{
+  overflow-y:auto;
+}
