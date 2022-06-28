@@ -34,7 +34,7 @@ function App() {
   }
   return (
   <>
-    <Navbar about="changed About" mode={mode} toggleMode={toggleMode}/>
+    <Navbar about="changed" mode={mode} toggleMode={toggleMode}/>
     <Alert alert={alert}/>
     <div className='container'>
         <TextForm heading="Enter Your Text" mode={mode} showAlert={showAlert}/>
